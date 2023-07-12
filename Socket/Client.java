@@ -19,6 +19,7 @@ public class Client {
                     System.out.print("Type: ");
                     s = sc.nextLine();
                     os.write(s.getBytes());
+                    sc.close();
                     os.close();
                 }
                 catch(Exception e)
